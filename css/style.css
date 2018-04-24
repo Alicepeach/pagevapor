@@ -1,0 +1,77 @@
+nav ul li, footer ul li{
+	display: inline;	
+} /*etiquetas li dentro de ul dentro de nav*/
+
+li:hover a{
+	background-color: green;
+}
+
+.imgs{
+	background: pink;
+	padding: 50px;
+	border: 30px solid black;
+	padding: 80px;
+}
+
+header{
+	background-color:rgb(28,58,64);
+	margin: 0px;
+	padding: 0px;
+}
+nav a{
+	display: inline;
+	width: 100px;
+	height: 20px;
+	text-decoration-color: blue;
+	background-color: #0A0A2A;	
+	color:#fff;
+}
+
+#border{
+	color: blue;
+	background: yellow;
+	/*padding: 50px;*/ /*Para el tamaño, si no especificamos se le aplica a todos los lados*/
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 50px;
+	/*padding: 50px 60px 70px 150px;*/
+	/*color al borde-->Va después del padding*/
+	border: 50px solid black; /*necesita un unico tamaño*/
+	/*solid black solo aplica para los bordes... no vas a aplicar color a un  margen*/
+}
+
+
+.imgs{
+	background: pink;
+	padding: 50px;
+	border: 30px solid black;
+	padding: 80px;
+}
+
+
+.p1{
+	color: white;
+	border: 30px;
+	text-align: justify;
+}
+
+footer {
+            position: relative;
+            /* Altura total del footer en px con valor negativo */
+            margin-top: -50px;
+            /* Altura del footer en px. Se han restado los 5px del margen
+               superior mas los 5px del margen inferior
+            */
+            height: 30px;
+            padding:30px 300px;
+            clear: both;
+            background: pink;
+            text-align: center;
+            color: purple;
+}
+
+h1{
+	font-family: 'MS GOTHIC', cursive;
+	color: pink;
+}
